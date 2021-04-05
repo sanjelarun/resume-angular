@@ -26,7 +26,13 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/all.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery-ease.js",
+              "src/script.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,9 +95,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700",
+              "https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+              
+
             ],
-            "scripts": []
+            "scripts": [
+              "Angular-Resume/resume/node_modules/@fortawesome/fontawesome-free/js/all.js",
+              "Angular-Resume/resume/node_modules/jquery/dist/jquery.min.js",
+              "Angular-Resume/resume/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map",
+              "src/script.js"
+            ]
           }
         },
         "lint": {
